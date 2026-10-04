@@ -1,5 +1,6 @@
 package myutils
 
+// Reverse reverses a string.
 func Reverse(s string) string {
 	runes := []rune(s)
 
@@ -10,6 +11,7 @@ func Reverse(s string) string {
 	return string(runes)
 }
 
+// CountVowels counts the number of vowels in a string.
 func CountVowels(s string) int {
 	count := 0
 
@@ -24,6 +26,7 @@ func CountVowels(s string) int {
 	return count
 }
 
+// Factorial calculates the factorial of a number.
 func Factorial(n int) int {
 	result := 1
 
@@ -34,6 +37,7 @@ func Factorial(n int) int {
 	return result
 }
 
+// Power calculates base raised to exponent.
 func Power(base, exponent int) int {
 	result := 1
 

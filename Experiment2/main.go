@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"Goex2/myutils"
+	"experiment2/myutils"
 )
 
 func main() {
@@ -15,7 +15,6 @@ func main() {
 	fmt.Println("Original String:", text)
 	fmt.Println("Reversed String:", myutils.Reverse(text))
 	fmt.Println("Number of Vowels:", myutils.CountVowels(text))
-
 	fmt.Println("Factorial of", number, ":", myutils.Factorial(number))
 	fmt.Println(base, "raised to the power", exponent, ":", myutils.Power(base, exponent))
 }
